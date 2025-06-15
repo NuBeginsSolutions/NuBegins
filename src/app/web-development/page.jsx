@@ -74,7 +74,7 @@ const page = () => {
   const pricingPlans = [
     {
       name: "Basic",
-      price: "999",
+      price: "499",
       description: "Perfect for small businesses starting their online journey",
       features: [
         { text: "Responsive Design", included: true },
@@ -90,7 +90,7 @@ const page = () => {
     },
     {
       name: "Professional",
-      price: "2499",
+      price: "799",
       description: "Comprehensive solution for growing businesses",
       features: [
         { text: "Responsive Design", included: true },
@@ -107,7 +107,7 @@ const page = () => {
     },
     {
       name: "Enterprise",
-      price: "4999",
+      price: "999",
       description: "Full-featured solution for established companies",
       features: [
         { text: "Responsive Design", included: true },

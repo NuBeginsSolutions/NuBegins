@@ -74,7 +74,7 @@ const page = () => {
   const pricingPlans = [
     {
       name: "Basic Design",
-      price: "699",
+      price: "399",
       description: "Essential design solutions for startups and small businesses",
       features: [
         { text: "Logo Design", included: true },
@@ -90,7 +90,7 @@ const page = () => {
     },
     {
       name: "Brand Identity",
-      price: "1899",
+      price: "599",
       description: "Complete branding solutions for established businesses",
       features: [
         { text: "Logo Design", included: true },
@@ -107,7 +107,7 @@ const page = () => {
     },
     {
       name: "Enterprise Design",
-      price: "3499",
+      price: "799",
       description: "Comprehensive design services for large organizations",
       features: [
         { text: "Logo Design", included: true },

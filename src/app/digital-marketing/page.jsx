@@ -75,7 +75,7 @@ const page = () => {
   const pricingPlans = [
     {
       name: "Starter",
-      price: "899",
+      price: "299",
       description: "Essential digital marketing for small businesses",
       features: [
         { text: "Social Media Management (2 platforms)", included: true },
@@ -91,7 +91,7 @@ const page = () => {
     },
     {
       name: "Growth",
-      price: "1999",
+      price: "499",
       description: "Comprehensive strategy for growing businesses",
       features: [
         { text: "Social Media Management (4 platforms)", included: true },
@@ -108,7 +108,7 @@ const page = () => {
     },
     {
       name: "Enterprise",
-      price: "3999",
+      price: "799",
       description: "Full-scale marketing for established businesses",
       features: [
         { text: "Social Media Management (All platforms)", included: true },
