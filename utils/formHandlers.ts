@@ -5,7 +5,7 @@ interface FormData {
 }
 
 export async function submitFormToSheet(formData: FormData, formType: 'course' | 'service' | 'contact'): Promise<{ success: boolean; message: string }> {
-  const url = 'https://script.google.com/macros/s/AKfycbwA7v_aGFETHuNDT2pmJOO5UYjCoDwUBRzBsehZW_bowFC7jkedGEraLV8aG7inWD_05A/exec'; // Replace with your Google Apps Script web app URL
+  const url = 'https://script.google.com/macros/s/AKfycbxSW_qq6rYJBradVFPifd3DRxLq143Z3xwmZOtPM7_MB5cyhb_1MDpS5O0DODV2Ygt8mw/exec'; // Replace with your Google Apps Script web app URL
 
   try {
     const response = await fetch(url, {

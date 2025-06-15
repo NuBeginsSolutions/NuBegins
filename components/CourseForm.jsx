@@ -71,7 +71,7 @@ const CourseForm = ({ courseId, courseName, onSuccess }) => {
     }
     
     setIsSubmitting(true);
-    const googleFormUrl = "https://docs.google.com/forms/d/e/1FAIpQLSdmtKW5nUdqC8siaJj5VXXnXdcfRBix9Kk_RtjebDysM5xHLA/formResponse";
+    const googleFormUrl = "https://docs.google.com/forms/d/e/1FAIpQLSeCeXgkzBCelV99Q3-zLKNfDYsv2ECl6uTaYyVmT8z5ALRKZw/formResponse";
 
     try {
       const formParams = new URLSearchParams();

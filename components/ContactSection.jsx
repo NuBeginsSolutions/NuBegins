@@ -72,15 +72,15 @@ const ContactSection = () => {
     }
     
     setIsSubmitting(true);
-    const googleFormUrl = "https://docs.google.com/forms/d/e/1FAIpQLSdf1gD3MN9USuX3CzDEyxZY1hv-XMED5Xehn7BSF4axN5zq8A/formResponse";
+    const googleFormUrl = "https://docs.google.com/forms/d/e/1FAIpQLSeCeXgkzBCelV99Q3-zLKNfDYsv2ECl6uTaYyVmT8z5ALRKZw/formResponse";
     
     try {
       const formParams = new URLSearchParams();
-    formParams.append("entry.1568434334", formData.name); // Replace with actual entry ID
-    formParams.append("entry.77754124", formData.email);
-    formParams.append("entry.1788518703", formData.phone);
-    formParams.append("entry.2052649119", formData.subject);
-    formParams.append("entry.255857358", formData.message);
+    formParams.append("entry.759412016", formData.name); // Replace with actual entry ID
+    formParams.append("entry.133989633", formData.email);
+    formParams.append("entry.2145702591", formData.phone);
+    formParams.append("entry.1803311406", formData.subject);
+    formParams.append("entry.835972919", formData.message);
       const res = await fetch(googleFormUrl, {
         method: "POST",
         body: formParams,
