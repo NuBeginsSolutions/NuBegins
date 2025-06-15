@@ -23,13 +23,13 @@ const Footer = () => {
               We are a team of passionate developers, designers, and marketers dedicated to creating innovative digital solutions for businesses of all sizes.
             </p>
             <div className="social-icons">
-              <a href="https://www.facebook.com/profile.php?id=61574557823591" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+              <a href="https://www.facebook.com/profile.php?id=61577202997656" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
                 <Facebook className="social-icon" style={{color:"white"}}/>
               </a>
-              <a href="https://www.instagram.com/nubegins/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+              <a href="https://www.instagram.com/nubegins_solutions/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
                 <Instagram className="social-icon" style={{color:"white"}}/>
               </a>
-              <a href="https://www.linkedin.com/in/nubegins-457b84359/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+              <a href="https://www.linkedin.com/in/nubegins-solutions-457b84359/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                 <Linkedin className="social-icon" style={{color:"white"}}/>
               </a>
               
